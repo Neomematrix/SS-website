@@ -1,0 +1,30 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2bb3a3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f3c6d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Molecule -->
+  <circle cx="120" cy="150" r="25" fill="url(#grad1)" />
+  <circle cx="200" cy="70" r="25" fill="url(#grad1)" />
+  <circle cx="260" cy="150" r="25" fill="url(#grad1)" />
+
+  <line x1="120" y1="150" x2="200" y2="70" stroke="#8fd3c7" stroke-width="6"/>
+  <line x1="200" y1="70" x2="260" y2="150" stroke="#8fd3c7" stroke-width="6"/>
+  <line x1="120" y1="150" x2="260" y2="150" stroke="#8fd3c7" stroke-width="6"/>
+
+  <!-- Sparkles -->
+  <polygon points="210,30 215,45 230,45 218,55 222,70 210,60 198,70 202,55 190,45 205,45"
+           fill="#2bb3a3" opacity="0.8"/>
+
+  <!-- Text -->
+  <text x="320" y="120" font-family="Arial, sans-serif" font-size="48" fill="#1f3c6d" font-weight="bold">
+    STERILIZATION
+  </text>
+  <text x="320" y="170" font-family="Arial, sans-serif" font-size="28" fill="#2bb3a3" letter-spacing="4">
+    SERVICES
+  </text>
+</svg>

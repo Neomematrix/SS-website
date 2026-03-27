@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sterilization Services</title>
+	<link rel="icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="styles/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo">
+      <img src="images/logo2_transparent.png" alt="Sterilization Services Logo">
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about/about.html">About</a>
+      <a href="process/process.html">Process</a>
+      <a href="contact us/contact.html" class="btn">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div>
+      <h1>Premier boutique Ethylene Oxide sterilization provider serving North America</h1>
+      <p>
+        Reliable sterilization for medical devices, healthcare products
+      </p>
+
+      <div class="hero-buttons">
+        <a href="contact us/contact.html" class="btn-primary">Request Info</a>
+       
+      </div>
+    </div>
+
+    <div>
+      <img src="images/tungart7-baby-10172896_1920.jpg" alt="Baby" class="hero-img">
+    </div>
+
+  </div>
+</section>
+
+<!-- COUNTER SECTION -->
+<section class="counter-section">
+  <div class="container">
+    <div class="counter-box">
+      <p class="counter-label">Life-saving equipment sterilized</p>
+      <h2 id="equipmentCounter">6,400,065</h2>
+      <p class="counter-subtext">and counting</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container two-col">
+    <div>
+      <h2>Serving North America</h2>
+  <img src="images/—Pngtree—iso 13485 certified luxury gold_6686147.png" class="iso-img" alt="ISO Certified">
+    </div>
+
+    <div>
+      <p class="lead">
+        Founded to meet the demand for professional contract sterilization,
+        Sterilization Services provides dependable EtO sterilization for a wide range
+        of industries.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+
+
+
+
+
+<script>
+  const counter = document.getElementById("equipmentCounter");
+
+  const startValue = 6400065;      
+  const increasePerHour = 1;       
+
+  const startTime = new Date("2026-01-01").getTime(); 
+
+  function updateCounter() {
+    const now = Date.now();
+    const hoursPassed = (now - startTime) / (1000 * 60 * 60);
+
+    const currentValue = startValue + (hoursPassed * increasePerHour);
+
+    counter.textContent = Math.floor(currentValue).toLocaleString();
+  }
+
+  updateCounter();
+  setInterval(updateCounter, 1000);
+</script>
+
+</body>
+</html>
+
+<footer class="footer">
+  <div class="container footer-links">
+    <p>© 2026 Sterilization Services</p>
+   
+    
+    <a href="https://www.linkedin.com/company/sterilization-services/" target="Linkedin">
+      <img src="images/linkedin.png" alt="External Link" class="footer-img">
+    </a>
+
+  </div>
+</footer>
