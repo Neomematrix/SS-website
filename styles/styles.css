@@ -1,3 +1,6 @@
+/*Author: Kyle George
+Final Project Submission*/
+
 /* GLOBAL */
 body {
   font-family: 'Inter', sans-serif;
@@ -23,11 +26,13 @@ a {
 }
 
 .container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
-
 /* Header, where the logo and the buttons are*/
 .header {
   position: fixed;
@@ -71,7 +76,7 @@ nav a:hover {
 
 /* HERO */
 .hero {
-  padding: 80px 0;
+  padding: 48px 0 56px;
   background: #d2deee9d;
 }
 
@@ -855,4 +860,45 @@ nav a:hover {
   .about-flex > div {
     width: 100%;
   }
+}
+.hero-img {
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px auto 0;
+  border-radius: 12px;
+  border: 1px solid #0f59d1;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.page-hero {
+  text-align: center;
+}
+.confirm-img {
+  width: 400px;
+  max-width: 100%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+}
+.confirm-bar {
+  width: 150px;
+  height: 10px;
+  background-color: #0f59d1; 
+  margin: 10px auto 25px;
+  border-radius: 1px;
+}.footer-links a {
+  margin-top: 6px;
+}
+.confirmation-page {
+  background-color: #e0e5eea2;
+}
+
+.process-video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 12px;
+  margin: 20px auto;
+  display: block;
 }
